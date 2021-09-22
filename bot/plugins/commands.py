@@ -48,10 +48,12 @@ async def start(bot, update):
 
     buttons = [[
         InlineKeyboardButton('MY DEVELEPOR🧑‍🔬', url='https://t.me/joinchat/0B7v3NByJNQ5MGVl')
-    ],[
+
+    ],[ InlineKeyboardButton('⭕️CHANNEL⭕️', url='https://t.me/joinchat/0B7v3NByJNQ5MGVl')
+
         InlineKeyboardButton('Support 🛠', url='https://t.me/joinchat/0B7v3NByJNQ5MGVl')
     ],[
-        InlineKeyboardButton('Help ⚙', callback_data="help")
+        InlineKeyboardButton('Help ⚙️', callback_data="help")
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
